@@ -256,17 +256,39 @@ main {
   border-radius: 75px;
   background-color: #CCE5FF;
 }
-.task{
+.task,
+.task1,
+.task2,
+.task3,
+.task4,
+.task5,
+.task6,
+.task7,
+.task8,
+.task9,
+.task10{
+  position: relative;
   border: 2.5px solid black;
   border-radius: 50px;
   background: #350436;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 .task__photo {
   width: 100%;
   border-radius: 48px;
 }
 
+.task__form1,
+.task__form2,
+.task__form2,
+.task__form3,
+.task__form4,
+.task__form5,
+.task__form6,
+.task__form7,
+.task__form8,
+.task__form9,
+.task__form10,
 .task__form {
   display: flex;
   justify-content: space-around;
@@ -282,7 +304,8 @@ main {
   border-radius: 0px 0px 48.5px 48.5px;
 }
 
-.task__button {
+.task__button,
+.end__button {
   font-size: 20px;
   line-height: 20px;
   padding: 12px 30px;
@@ -301,18 +324,15 @@ main {
   justify-content: center;
 }
 .end__button {
-  margin-top: 50px;
   position: relative;
   font-size: 30px;
   line-height: 30px;
-  padding: 12px 30px;
-  color: #FFF;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-family: 'Roboto Condensed', Тahoma, sans-serif;
-  background: #350436;
-  cursor: pointer;
-  border: 2px solid #010a13;
-  text-decoration: none;
-  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.true{
+  position: absolute;
+  
+  z-index: 9999;
+  height: 10%;
+  background-color: #2db32d;
 }
